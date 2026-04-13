@@ -54,8 +54,7 @@ products.forEach((product) => {
                 Add to Cart
             </button>
             </div>
-            `
-    
+            `    
 })
 
 document.querySelector('.js-products-grid').
@@ -83,4 +82,4 @@ document.querySelectorAll('.js-add-to-cart')
             updateCartQuantity();
         });
     });
-
+ 
